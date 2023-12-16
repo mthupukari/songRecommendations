@@ -1,0 +1,25 @@
+h1{
+    color: navy;
+}
+h2{
+    display: block;
+    margin-bottom: 5px;
+    color: darkgreen;
+}
+
+body{
+    margin: 3rem;
+    padding: 3rem;
+    border: 3rem groove darkblue;
+    background-image: url("background.png");
+    background-size: 50%; 
+    background-repeat: no-repeat;
+    background-position: center right 10%;
+}
+
+label {
+    font-size: 25px;
+    display: block;
+    margin-bottom: 5px;
+    color: darkolivegreen;
+}

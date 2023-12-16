@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Song Recommendation</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>ENTER A SONG</h1>
+    <h2>Enter a song below and recommendations will show up!</h2>
+
+    <form action="/index" method="post">
+      <div>
+        <label for="song">Song:</label>
+        <input type="text" id="song" name="song" required />
+      </div>
+      <div>
+        <label for="artist">Artist:</label>
+        <input type="text" id="artist" name="artist" required />
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+
+    <div>
+      <h2>Recommendations:</h2>
+      <% if (recommendations) { %>
+      <ul>
+        <% recommendations.forEach(function(recommendation) { %>
+        <li><%= recommendation %></li>
+        <% }); %>
+      </ul>
+      <% } %>
+    </div>
+  </body>
+</html>
