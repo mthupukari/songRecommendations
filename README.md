@@ -1,4 +1,3 @@
-**Team Members** - Mahit Thupukari (mahit), Rohan Malhotra (rohanm85), Kerul Mathur (kmathur3)
 **App Description** - The app has a long in page. Then when you have logged into the app, you input a song name
 and the artist of the song, and then the app will give you recommendations based on your song.
 **API links** - [Rapid API Genius - Song Lyrics](https://rapidapi.com/Glavier/api/genius-song-lyrics1/)
